@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	navnArray.forEach(navn => {
 		let listItem = document.createElement('li');
 		document.querySelector('#liste').appendChild(listItem);
-		listItem.innerHTML = navn;
+		listItem.textContent = navn;
 		listItem.style.listStyle = 'none';
 	});
 
